@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Yt_dialog
+GenericName=Yt_dialog
+Comment=Zenity dialog for youtube-dl
+Exec=yt_dialog
+Terminal=false
+Type=Application
+Categories=Application;
