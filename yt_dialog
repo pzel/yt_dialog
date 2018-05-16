@@ -4,5 +4,4 @@ set -o pipefail
 url=$(zenity --text="URL to download" --title="Input URL" --entry 2>/dev/null)
 mkdir -p ~/Videos && cd ~/Videos && youtube-dl -q --no-mtime "${url}" |\
   zenity --progress --pulsate --auto-close --auto-kill 2>/dev/null
-xdg-open "$(ls ~/Videos -t |  head -n1)"
-
+xdg-open "~/Videos"
